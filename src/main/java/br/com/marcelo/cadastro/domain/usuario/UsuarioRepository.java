@@ -1,6 +1,6 @@
-package br.com.marcelo.cadastro.domain.filme;
+package br.com.marcelo.cadastro.domain.usuario;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface FilmeRepository extends JpaRepository<Filme, Long> {
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 }
